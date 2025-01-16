@@ -15,7 +15,6 @@ body {
     border-radius: 5px;
     box-shadow: black 3px 3px 0px;
     cursor: pointer;
-    transition: 0.1s all ease;
 }
 
 .btn_box_shadow:hover {
@@ -24,7 +23,109 @@ body {
 }
 
 .btn_box_shadow:active {
-
     box-shadow: black 0px 0px 0px;
     transform: translate(3px, 3px);
+}
+
+.task_card {
+    height: 20vh;
+    width: 145px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: none;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot_task_card_completed,
+.dot_task_card_overdue,
+.dot_task_card_active {
+    background-color: white;
+}
+
+.dot_task_card_completed {}
+
+.dot_task_card_active {}
+
+.dot_task_card_overdue {}
+
+.task_card_completed {
+    background-color: greenyellow;
+}
+
+.task_card_overdue {
+    background-color: #FF5757;
+}
+
+.task_card_active {
+    background-color: #FFD95C;
+}
+
+.num_task {
+    font-size: 40px;
+    text-align: center;
+    /* circle */
+
+}
+
+.task_text {
+    margin-top: 8px;
+}
+
+.border_red {
+    border: solid 1px red;
+}
+
+.sideBar {
+    width: 4rem;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 30px;
+    border: solid 0.1px white;
+}
+
+.sideBar:hover {
+    border: solid 0.1px black;
+}
+
+.img_sideBar {
+    width: 80%;
+    height: 80%;
+}
+
+.btn_side_bar {
+    /* memposisikan item gambar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.btn_side_bar:hover {
+    /* border: solid 1px black; */
+    box-shadow: black 0 0 3px 3px;
+}
+
+
+
+.border_cost_black {
+    border: solid 0.1px black;
+}
+
+.sideBar,.btn_side_bar,.btn_box_shadow {
+    transition: all ease 0.1s;
 }
