@@ -1,0 +1,30 @@
+body {
+    margin: 10px;
+}
+
+.box_shadow_costume {
+    border: solid 1px black;
+    padding: 8px 20px;
+    border-radius: 4px;
+    /* box-shadow: black 5px 5px 0px; */
+}
+
+.btn_box_shadow {
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+    transition: 0.1s all ease;
+}
+
+.btn_box_shadow:hover {
+    background-color: gray;
+    color: white;
+}
+
+.btn_box_shadow:active {
+
+    box-shadow: black 0px 0px 0px;
+    transform: translate(3px, 3px);
+}
