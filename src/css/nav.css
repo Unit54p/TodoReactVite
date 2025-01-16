@@ -1,0 +1,21 @@
+ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.active_nav {
+    color: white;
+    background-color: black;
+    border: solid 1px;
+    box-shadow: gray 3px 3px 0 !important;
+}
+
+
+
+li a {
+
+    /* Mengisi seluruh tinggi <li> */
+    padding: 5px 5px;
+    /* Memberikan padding yang sama dengan <li> */
+}
