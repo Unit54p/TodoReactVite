@@ -1,6 +1,9 @@
 body {
     margin: 10px;
 }
+.layout-x-15{
+    margin: 0 15%;
+}
 
 .box_shadow_costume {
     border: solid 1px black;
