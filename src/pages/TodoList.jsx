@@ -11,12 +11,27 @@ function TodoList() {
       <div className="flex gap-4 mt-4">
         <div className="flex flex-col justify-between items-center sideBar">
           <div className="space-y-7">
-            <div className="btn_side_bar">
-              <img className="img_sideBar" src="src\img\plus.png" alt="" />
+            {/* arsip */}
+            <div className="btn_side_bar w-30 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+              <a href="/Archive">
+                <img
+                  src="src/img/folder.png"
+                  alt="Icon"
+                  class="invert icon_side_bar w-10 "
+                />
+              </a>
             </div>
-            <div className="btn_side_bar">
-              <img className="img_sideBar" src="src\img\plus.png" alt="" />
+            {/* rencana masa depn */}
+            <div className="btn_side_bar w-30 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+              <a href="/FutureTodo">
+                <img
+                  src="src/img/calendar.png"
+                  alt="Icon"
+                  class="invert icon_side_bar w-10 "
+                />
+              </a>
             </div>
+            {/*  */}
             <div className="btn_side_bar">
               <img className="img_sideBar" src="src\img\plus.png" alt="" />
             </div>
@@ -26,7 +41,11 @@ function TodoList() {
               <img className="img_sideBar" src="src\img\plus.png" alt="" />
             </div>
             <div className="btn_side_bar">
-              <img className="img_sideBar" src="src\img\logOut.png" alt="" />
+              <img
+                className="img_sideBar"
+                src="src\img\logout (1).png"
+                alt=""
+              />
             </div>
           </div>
         </div>

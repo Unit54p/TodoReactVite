@@ -14,7 +14,7 @@ function About() {
             React, Tailwind, Vite, Html, Css, dan js
           </div>
           <div>
-            <img src="src\img\Rectangle 49.png" alt="" />
+            <img src="src\img\react.png" alt="" />
           </div>
         </div>
       </div>
@@ -25,8 +25,8 @@ function About() {
             <img src="src\img\Rectangle 49.png" alt="" />
           </div>
           <div>
-            <span className="text-xl font-medium">Front end</span> <br />
-            React, Tailwind, Vite, Html, Css, dan js
+            <span className="text-xl font-medium">Back end</span> <br />
+            Not yet
           </div>
         </div>
       </div>
